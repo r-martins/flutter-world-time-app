@@ -1,16 +1,11 @@
-# world_time
+# World time app
 
-A new Flutter project.
+Just a simple app that shows the time of different cities around the world.
 
-## Getting Started
+This is my first flutter project, so it's not perfect, but it's a good start.
 
-This project is a starting point for a Flutter application.
+# Author
+Ricardo Martins 🇦🇺🇧🇷
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots
+![Screenshot 1](./screenshots/screenshot1.jpg)
