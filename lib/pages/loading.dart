@@ -1,6 +1,7 @@
 import 'dart:ffi';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:http/http.dart';
 import 'dart:convert';
 
@@ -26,6 +27,7 @@ class _LoadingState extends State<Loading> {
       'location': worldTime.location,
       'flag': worldTime.flag,
       'time': worldTime.time,
+      'isDaytime': worldTime.isDaytime,
     });
   }
 
@@ -34,7 +36,10 @@ class _LoadingState extends State<Loading> {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(30.0),
-        child: Text('loading'),
+        child: SpinKitWanderingCubes(
+          color: Colors.blue,
+          size: 50.0,
+        ),
       ),
     );
   }
